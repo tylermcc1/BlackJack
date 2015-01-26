@@ -1,6 +1,6 @@
 
 
-
+/*Tyler McCarthy*/
 package com.example.tyler.blackjack;
 
 
@@ -822,6 +822,7 @@ public class BlackJack extends Activity implements DialogInterface.OnClickListen
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        System.out.println("test");
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
@@ -830,6 +831,7 @@ public class BlackJack extends Activity implements DialogInterface.OnClickListen
             return true;
         }
         return super.onOptionsItemSelected(item);
+
     }
 
 
