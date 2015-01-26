@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity"
+    android:background = "@drawable/background" >
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/playButton"
+        android:layout_marginBottom="87dp"
+        android:width="100dp"
+        android:background="@drawable/border"
+        android:textColor="#ff040404"
+        android:textSize="25dp"
+        android:clickable="true"
+        android:onClick = "startClick"
+        android:textColorHighlight="#ffd6d6d6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="T_McCart"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:textColor="#ffffde19"
+        android:typeface="monospace"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/playButton"
+        android:layout_alignEnd="@+id/playButton"
+        android:password="false" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginTop="58dp"
+        android:src = "@drawable/twoofdiamonds"
+        android:layout_toStartOf="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView"
+        android:src = "@drawable/sevenofdiamonds"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView"
+        android:src = "@drawable/kingofclubs"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView2"
+        android:src = "@drawable/aceofhearts"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView4"
+        android:src = "@drawable/eightofclubs"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4" />
+</RelativeLayout>

@@ -1,0 +1,447 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/background"
+    android:id = "@+id/layout"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/pCard1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft = "80dp"
+        android:layout_marginBottom="65dp"
+        />
+
+    <ImageView
+
+        android:id="@+id/pCard2"
+        android:layout_height = "70dp"
+        android:layout_width = "70dp"
+        android:layout_marginRight = "63dp"
+        android:layout_marginBottom="90dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageView
+
+        android:id="@+id/pCard3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight= "50dp"
+        android:layout_marginBottom="115dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "37dp"
+        android:layout_marginBottom = "140dp"
+        android:id="@+id/pCard4"
+        android:layout_gravity="center_horizontal|bottom"
+      />
+
+
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "23dp"
+        android:layout_marginBottom="165dp"
+        android:id="@+id/pCard5"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "9dp"
+        android:layout_marginBottom="190dp"
+        android:id="@+id/pCard6"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "-5dp"
+        android:layout_marginBottom="215dp"
+        android:id="@+id/pCard7"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "-19dp"
+        android:layout_marginBottom="240dp"
+        android:id="@+id/pCard8"
+        android:layout_gravity="center_horizontal|bottom"
+       />
+
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "-33dp"
+        android:layout_marginBottom="265dp"
+        android:id="@+id/pCard9"
+        android:layout_gravity="center_horizontal|bottom"
+       />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "-47dp"
+        android:layout_marginBottom="290dp"
+        android:id="@+id/pCard10"
+        android:layout_gravity="center_horizontal|bottom"
+       />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "-61dp"
+        android:layout_marginBottom="315dp"
+        android:id="@+id/pCard11"
+        android:layout_gravity="center_horizontal|bottom"
+ />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight = "-30dp"
+        android:layout_marginBottom="65dp"
+        android:id="@+id/sCard1"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "42dp"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/sCard2"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "56dp"
+        android:layout_marginBottom="115dp"
+        android:id="@+id/sCard3"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "70dp"
+        android:layout_marginBottom="140dp"
+        android:id="@+id/sCard4"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "84dp"
+        android:layout_marginBottom="165dp"
+        android:id="@+id/sCard5"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "98dp"
+        android:layout_marginBottom="190dp"
+        android:id="@+id/sCard6"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "112dp"
+        android:layout_marginBottom="215dp"
+        android:id="@+id/sCard7"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "126dp"
+        android:layout_marginBottom="240dp"
+        android:id="@+id/sCard8"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "140dp"
+        android:layout_marginBottom="265dp"
+        android:id="@+id/sCard9"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "154dp"
+        android:layout_marginBottom="290dp"
+        android:id="@+id/sCard10"
+        android:layout_gravity="center_horizontal|bottom"
+        />
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft = "168dp"
+        android:layout_marginBottom="315dp"
+        android:id="@+id/sCard11"
+        android:layout_gravity="center_horizontal|bottom"
+        android:minHeight="30dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard1"
+        android:layout_gravity="center_horizontal|top"
+       />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard2"
+        android:layout_marginRight = "15dp"
+        android:layout_marginTop = "25dp"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard3"
+        android:layout_marginRight = "30dp"
+        android:layout_marginTop = "50dp"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard4"
+        android:layout_marginRight = "45dp"
+        android:layout_marginTop = "75dp"
+        android:layout_gravity="center_horizontal|top"
+       />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard5"
+        android:layout_marginRight = "60dp"
+        android:layout_marginTop = "100dp"
+        android:layout_gravity="center_horizontal|top"
+      />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard6"
+        android:layout_marginRight = "75dp"
+        android:layout_marginTop = "125dp"
+        android:layout_gravity="center_horizontal|top"
+       />
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard7"
+        android:layout_marginRight = "90dp"
+        android:layout_marginTop = "150dp"
+        android:layout_gravity="center_horizontal|top"
+       />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard8"
+        android:layout_marginRight = "105dp"
+        android:layout_marginTop = "175dp"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard9"
+        android:layout_marginRight = "120dp"
+        android:layout_marginTop = "200dp"
+        android:layout_gravity="center_horizontal|top"
+       />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard10"
+        android:layout_marginRight = "135dp"
+        android:layout_marginTop = "225dp"
+        android:layout_gravity="center_horizontal|top"
+       />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/dCard11"
+        android:layout_marginRight = "150dp"
+        android:layout_marginTop = "250dp"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+    <Button
+        android:layout_width="92dp"
+        android:layout_height="25dp"
+        android:text="Double Down"
+        android:background = "@drawable/border"
+        android:id="@+id/ddButton"
+        android:layout_gravity="right|bottom"
+        android:maxWidth="100dp"
+        android:minHeight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="80dp"
+        android:typeface="normal"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:onClick="doubleDownClick" />
+
+    <Button
+       android:layout_width = "92dp"
+        android:layout_height="25dp"
+        android:text="Split"
+        android:id="@+id/splitButton"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="80dp"
+        android:maxWidth="100dp"
+        android:minHeight="20dp"
+        android:background="@drawable/border"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:onClick = "splitClick"/>
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="1000"
+        android:gravity = "center"
+        android:id="@+id/chipCountText"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/border2"
+        android:textColor="#ffff1f0e"
+        android:textSize="20dp"
+        android:typeface="serif"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Player Chips"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft = "17dp"
+        android:textStyle = "bold"
+        android:textColor="#ff070707"
+        android:typeface="sans" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="18dp"
+        android:id="@+id/increaseBet"
+        android:text = "+"
+        android:textStyle = "bold"
+        android:layout_gravity="right|center_vertical"
+        android:background = "@drawable/increasebetborder"
+        android:textSize = "13dp"
+        android:layout_marginRight = "85dp"
+        android:layout_marginTop = "125dp"
+        android:clickable="true"
+        android:onClick="increaseBetClick"
+
+        android:longClickable="true" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:id="@+id/decreaseBet"
+        android:text = "-"
+        android:background="@drawable/increasebetborder"
+        android:textStyle = "bold"
+        android:layout_gravity="right|center_vertical"
+        android:textSize = "18dp"
+        android:layout_marginRight = "85dp"
+        android:layout_marginTop = "143dp"
+        android:clickable="true"
+        android:onClick="decreaseBetClick"
+        android:longClickable="true"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:text="10"
+        android:id="@+id/playerBetText"
+        android:layout_gravity="right|bottom"
+        android:gravity="center"
+        android:layout_marginBottom="95dp"
+        android:background = "@drawable/pokerchip"
+        android:layout_marginRight="37dp"
+        android:textSize="20dp"
+        android:textColor="#ff030000"
+        android:typeface="serif"
+         />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="Place Bet"
+        android:id="@+id/placeBetButton"
+        android:layout_gravity="right|bottom"
+        android:textSize="12dp"
+        android:layout_marginRight = "83dp"
+        android:layout_marginBottom = "73dp"
+        android:textStyle = "bold"
+        android:background="@drawable/placebetborder"
+        android:clickable="true"
+        android:onClick="placeBetClick" />
+
+
+</FrameLayout>
