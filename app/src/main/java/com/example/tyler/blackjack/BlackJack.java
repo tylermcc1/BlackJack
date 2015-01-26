@@ -185,19 +185,6 @@ public class BlackJack extends Activity implements DialogInterface.OnClickListen
     }
 
 
-
-
-
-
-
-
-    public void menuClick(View v){
-        finish();
-
-    }
-
-
-
     public void placeBetClick(View v){
         playerBet = Integer.parseInt(playerBetText.getText().toString());
         playerChips.decreaseChips(playerBet);
@@ -231,23 +218,15 @@ public class BlackJack extends Activity implements DialogInterface.OnClickListen
     }
 
     public void increaseBetClick(View v) {
-        if (playerBet == 1000) {
-
-        } else {
+        if (playerBet < 1000) {
             playerBet += 5;
             playerBetText.setText(String.valueOf(playerBet));
         }
     }
 
 
-
-
     public void decreaseBetClick (View v){
-        if(playerBet == 10){
-
-
-        }
-        else{
+       if(playerBet > 10){
             playerBet-=5;
             playerBetText.setText(String.valueOf(playerBet));
         }
@@ -822,7 +801,6 @@ public class BlackJack extends Activity implements DialogInterface.OnClickListen
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        System.out.println("test");
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
