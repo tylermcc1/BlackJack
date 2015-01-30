@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:id="@+id/lblNewFirstName"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtNewFirstName"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/increasebetborder"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:id="@+id/lblNewLastName"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtNewLastName"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/increasebetborder"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:id="@+id/lblNewUserName"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/txtNewUserName"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/increasebetborder"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/lblNewPassword"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtNewPassword"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/increasebetborder"
+
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:textSize="15dp"
+        android:text="Sign Up"
+        android:id="@+id/btnSignUp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/border"
+        android:onClick="signUpClick"/>
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:textSize="15dp"
+        android:text="Cancel"
+        android:id="@+id/btnCancel"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/border"
+        android:onClick="cancelClick"/>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/header">
+        <TextView
+            android:text="Create Profile"
+            android:textColor="#939393"
+            android:layout_marginTop="13dp"
+            android:textSize="25dp"/>
+     </TableRow>
+
+</FrameLayout>

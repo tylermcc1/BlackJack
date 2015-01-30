@@ -22,7 +22,15 @@ public class StartMenu extends Activity {
     }
 
     public void startClick(View v){
+
         Intent intent = new Intent(this, BlackJack.class);
         startActivity(intent);
+    }
+
+    public void signInClick(View v){
+        Intent intent = new Intent(this,SignIn.class);
+        startActivity(intent);
+
+
     }
 }

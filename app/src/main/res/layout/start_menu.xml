@@ -87,4 +87,17 @@
         android:src = "@drawable/eightofclubs"
         android:layout_alignTop="@+id/imageView4"
         android:layout_toRightOf="@+id/imageView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:background="@drawable/placebetborder"
+        android:text="Sign In"
+        android:id="@+id/loginButton"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:onClick="signInClick" />
 </RelativeLayout>

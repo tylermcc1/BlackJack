@@ -18,6 +18,8 @@
         </activity>
         <activity
             android:name=".BlackJack"/>
+        <activity android:name=".SignIn"/>
+        <activity android:name=".NewUser"/>
     </application>
 
 </manifest>
